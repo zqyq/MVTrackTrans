@@ -1,6 +1,6 @@
 # MVTrackTrans
 Multi-view Crowd Tracking Transformer with View-Ground Interactions Under Large Real-World Scenes, CVPR 2026
-![MVTrackTrans](https://github.com/zqyq/MVTrackTrans/blob/main/Pipeline.png)
+![MVTrackTrans](https://github.com/zqyq/MVTrackTrans/blob/main/PipeLine.png)
 ## Abstract
 Multi-view crowd tracking estimates each person's tracking trajectories on the ground of the scene. Recent research works mainly rely on CNNs-based multi-view crowd tracking architectures, and most of them are evaluated and compared on relatively small datasets, such as Wildtrack and MultiviewX. Since these two datasets are collected in small scenes and only contain tens of frames in the evaluation stage, it is difficult for the current methods to be applied to real-world applications where scene size and occlusion are more complicated. In this paper, we propose a Transformer-based multi-view crowd tracking model, \textit{MVTrackTrans}, which adopts interactions between camera views and the ground plane for enhanced multi-view tracking performance. Besides, for better evaluation, we collect and label two large real-world multi-view tracking datasets, MVCrowdTrack and CityTrack, which contain a much larger scene size over a longer time period. Compared with existing methods on the two large and new datasets, the proposed MVTrackTrans model achieves better performance, demonstrating the advantages of the model design in dealing with large scenes.
 

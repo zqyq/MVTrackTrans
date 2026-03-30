@@ -22,9 +22,8 @@ Multi-view crowd tracking estimates each person's tracking trajectories on the g
 - accelerate
 
 ## Data Preparation
-In the code implementation, the root path of the four main datasets are defined as ```/mnt/data/Datasets```. Of course,
-it can be changed.
-When you apply the method on your datasets or other paths, the root path should look like this:
+In the code implementation, the root path of the four main datasets are defined as ```/mnt/d/dataset```.
+
 ```
 Datasets
 |__CityTrack

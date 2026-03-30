@@ -21,6 +21,21 @@ Multi-view crowd tracking estimates each person's tracking trajectories on the g
 - DCNv2 [link](https://github.com/CharlesShang/DCNv2)
 - accelerate
 
+## Data Preparation
+In the code implementation, the root path of the four main datasets are defined as ```/mnt/data/Datasets```. Of course,
+it can be changed.
+When you apply the method on your datasets or other paths, the root path should look like this:
+```
+Datasets
+|__CityTrack
+    |__...
+|__MVCrowdTrack
+    |__...
+|__Wildtrack
+    |__...
+|__MultiviewX
+    |__...
+```
 
 ## Training
 

@@ -37,12 +37,15 @@ Datasets
 ```
 
 ## Training
-For training on MVCrowdTrack, first navigate to the corresponding directory, then specify the GPUs for multi-GPU training:
+For training, first navigate to the corresponding directory, then specify the GPUs for multi-GPU training:
 ```bash
 CUDA_VISIBLE_DEVICES=0,1 accelerate launch main.py with deformable
 ```
 ## Testing
-
+For testing, run:
+```bash
+CUDA_VISIBLE_DEVICES=0 accelerate launch test.py with deformable
+```
 ## Datasets
 You can download the dataset CityTrack at this [link](https://pan.baidu.com/s/1pIMExmYV-ttQd8x2Ky3bRA) code: 1390 and the dataset MVCrowdTrack [link](https://pan.baidu.com/s/170ae9vUmoPX_yDlPzKQ3cw) code: 2460
 

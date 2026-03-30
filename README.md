@@ -37,6 +37,10 @@ Datasets
 ```
 
 ## Training
+### Multi-GPU Training
+
+```bash
+CUDA_VISIBLE_DEVICES=0,1 accelerate launch main.py with deformable
 
 ## Testing
 

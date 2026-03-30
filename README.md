@@ -37,8 +37,7 @@ Datasets
 ```
 
 ## Training
-### Multi-GPU Training
-
+For training on MVCrowdTrack, first navigate to the corresponding directory, then specify the GPUs for multi-GPU training:
 ```bash
 CUDA_VISIBLE_DEVICES=0,1 accelerate launch main.py with deformable
 ```

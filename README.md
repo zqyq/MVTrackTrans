@@ -35,6 +35,28 @@ Datasets
 |__MultiviewX
     |__...
 ```
+### Folder structure
+```
+MVCrowdTrack
+├── annotations_positions
+│   ├── 00000.json
+│   ├── 00001.json
+│   └── ...
+├── calibrations
+│   ├── extrinsic
+│   │   ├── extr_Camera1.xml
+│   │   ├── extr_Camera2.xml
+│   │   └── ...
+│   └── intrinsic
+│       ├── intr_Camera1.xml
+│       ├── intr_Camera2.xml
+│       └── ...
+├── gt.txt
+├── Image_subsets
+│   ├── C1
+│   ├── C2
+│   └── ...
+ ```
 
 ## Training
 For training, first navigate to the corresponding directory, then specify the GPUs for multi-GPU training:

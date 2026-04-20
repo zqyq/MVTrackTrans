@@ -69,7 +69,11 @@ For testing, run:
 CUDA_VISIBLE_DEVICES=0 accelerate launch test.py with deformable
 ```
 ## Datasets
-You can download the dataset CityTrack at this [link](https://pan.baidu.com/s/1pIMExmYV-ttQd8x2Ky3bRA) code: 1390 and the dataset MVCrowdTrack [link](https://pan.baidu.com/s/170ae9vUmoPX_yDlPzKQ3cw) code: 2460
+You can download the dataset CityTrack at 
+
+Baidu: this [link](https://pan.baidu.com/s/1pIMExmYV-ttQd8x2Ky3bRA) code: 1390 and the dataset MVCrowdTrack [link](https://pan.baidu.com/s/170ae9vUmoPX_yDlPzKQ3cw) code: 2460
+
+Dropbox: [Code and Datasets link](https://www.dropbox.com/scl/fo/ltlzm1k1x93hvgyr6jvrd/ANGQD5wCbu2_HU1zt1bLdig?rlkey=rni92z3z81srl2y19e7u7wnxn&st=9cj36slk&dl=0) code: iMUSELab
 
 ## Acknowledgement
 This work was supported in part by Guangdong Science and Technology Program (2024B0101050004), NSFC (62202312), ICFCRT (W2441020), Shenzhen Science and Technology Program (KJZD20240903100022028, KQTD20210811090044003), Scientific Foundation for Youth Scholars and Scientific Development Funds from Shenzhen University.

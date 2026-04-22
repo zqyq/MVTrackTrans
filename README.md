@@ -73,7 +73,12 @@ For testing, run:
 CUDA_VISIBLE_DEVICES=0 accelerate launch test.py with deformable
 ```
 
-
-## Acknowledgement
-This work was supported in part by Guangdong Science and Technology Program (2024B0101050004), NSFC (62202312), ICFCRT (W2441020), Shenzhen Science and Technology Program (KJZD20240903100022028, KQTD20210811090044003), Scientific Foundation for Youth Scholars and Scientific Development Funds from Shenzhen University.
-
+### Cite our paper:
+   If you feel the paper, dataset or code, is useful to you, please cite our paper.
+   
+    @inproceedings{zhang2026MVTrackTrans,
+    title={Multi-view Crowd Tracking Transformer with View-Ground Interactions Under Large Real-World Scenes},
+    author={Zhang, Qi, Chen, Jixuan, Zhang, Kaiyi, Yu Xinquan, Chan, Antoni B, and Huang Hui},
+    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+    year={2026}
+    }

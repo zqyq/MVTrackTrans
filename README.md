@@ -78,7 +78,7 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch test.py with deformable
    
     @inproceedings{zhang2026MVTrackTrans,
     title={Multi-view Crowd Tracking Transformer with View-Ground Interactions Under Large Real-World Scenes},
-    author={Zhang, Qi, Chen, Jixuan, Zhang, Kaiyi, Yu Xinquan, Chan, Antoni B, and Huang Hui},
+    author={Zhang, Qi, Chen, Jixuan, Zhang, Kaiyi, Yu, Xinquan, Chan, Antoni B, and Huang, Hui},
     booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
     year={2026}
     }

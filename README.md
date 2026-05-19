@@ -4,11 +4,11 @@
 Multi-view crowd tracking estimates each person's tracking trajectories on the ground of the scene. Recent research works mainly rely on CNNs-based multi-view crowd tracking architectures, and most of them are evaluated and compared on relatively small datasets, such as Wildtrack and MultiviewX. Since these two datasets are collected in small scenes and only contain tens of frames in the evaluation stage, it is difficult for the current methods to be applied to real-world applications where scene size and occlusion are more complicated. In this paper, we propose a Transformer-based multi-view crowd tracking model, \textit{MVTrackTrans}, which adopts interactions between camera views and the ground plane for enhanced multi-view tracking performance. Besides, for better evaluation, we collect and label two large real-world multi-view tracking datasets, MVCrowdTrack and CityTrack, which contain a much larger scene size over a longer time period. Compared with existing methods on the two large and new datasets, the proposed MVTrackTrans model achieves better performance, demonstrating the advantages of the model design in dealing with large scenes.
 
 ## Video
-[video](https://private-user-images.githubusercontent.com/86394027/364318268-12d33440-e586-451f-87cc-d68d8f36a618.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU0NDMyNzIsIm5iZiI6MTcyNTQ0Mjk3MiwicGF0aCI6Ii84NjM5NDAyNy8zNjQzMTgyNjgtMTJkMzM0NDAtZTU4Ni00NTFmLTg3Y2MtZDY4ZDhmMzZhNjE4Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA0VDA5NDI1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM5M2I1N2ZhNDRjZjg5ODliMDdjOTAzMGE5Zjk3NjY1Y2ZlM2E5ZGVjZDE0NzA4ZmEzY2ViYjZjZjFhMzFkNjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.4SadldmRJxctAfMHtKrCR5lLGm-k4bsKawxfe_021Hk)
+[video](https://github.com/zqyq/MVTrackTrans/blob/main/CVPRVIDEO.mp4 "Video")
 
 ## Poster 
 CVPR 2026 poster:
-![Poster](https://github.com/zqyq/MVTrackTrans/blob/main/poster_fig.png "Poster")
+![Poster](https://github.com/zqyq/MVTrackTrans/blob/main/cvpr26poster.png "Poster")
 
 ## Paper, Code, and Datasets
 You can download the dataset CityTrack at 

@@ -11,7 +11,7 @@ CVPR 2026 poster:
 ![Poster](https://github.com/zqyq/MVTrackTrans/blob/main/cvpr26poster.png "Poster")
 
 ## Paper, Code, and Datasets
-You can download the dataset CityTrack at 
+You can download at
 
 Baidu: this [link](https://pan.baidu.com/s/1pIMExmYV-ttQd8x2Ky3bRA) code: 1390 and the dataset MVCrowdTrack [link](https://pan.baidu.com/s/1X168WJ0QqGkFkLiAHQtRmg) code: 9xbs
 
